@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17AF2419232FA66100DABA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF2418232FA66100DABA95 /* AppDelegate.swift */; };
+		17AF241B232FA66100DABA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF241A232FA66100DABA95 /* ViewController.swift */; };
+		17AF241E232FA66100DABA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AF241C232FA66100DABA95 /* Main.storyboard */; };
+		17AF2420232FA66200DABA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AF241F232FA66200DABA95 /* Assets.xcassets */; };
+		17AF2423232FA66200DABA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AF2421232FA66200DABA95 /* LaunchScreen.storyboard */; };
+		17AF242E232FA66200DABA95 /* Uiswich_nd_UibttonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF242D232FA66200DABA95 /* Uiswich_nd_UibttonsTests.swift */; };
+		17AF2439232FA66200DABA95 /* Uiswich_nd_UibttonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AF2438232FA66200DABA95 /* Uiswich_nd_UibttonsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17AF242A232FA66200DABA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17AF240D232FA66000DABA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17AF2414232FA66100DABA95;
+			remoteInfo = "Uiswich nd Uibttons";
+		};
+		17AF2435232FA66200DABA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17AF240D232FA66000DABA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17AF2414232FA66100DABA95;
+			remoteInfo = "Uiswich nd Uibttons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17AF2415232FA66100DABA95 /* Uiswich nd Uibttons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uiswich nd Uibttons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF2418232FA66100DABA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17AF241A232FA66100DABA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17AF241D232FA66100DABA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17AF241F232FA66200DABA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17AF2422232FA66200DABA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17AF2424232FA66200DABA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AF2429232FA66200DABA95 /* Uiswich nd UibttonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uiswich nd UibttonsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF242D232FA66200DABA95 /* Uiswich_nd_UibttonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uiswich_nd_UibttonsTests.swift; sourceTree = "<group>"; };
+		17AF242F232FA66200DABA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AF2434232FA66200DABA95 /* Uiswich nd UibttonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uiswich nd UibttonsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AF2438232FA66200DABA95 /* Uiswich_nd_UibttonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uiswich_nd_UibttonsUITests.swift; sourceTree = "<group>"; };
+		17AF243A232FA66200DABA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17AF2412232FA66100DABA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF2426232FA66200DABA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF2431232FA66200DABA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17AF240C232FA66000DABA95 = {
+			isa = PBXGroup;
+			children = (
+				17AF2417232FA66100DABA95 /* Uiswich nd Uibttons */,
+				17AF242C232FA66200DABA95 /* Uiswich nd UibttonsTests */,
+				17AF2437232FA66200DABA95 /* Uiswich nd UibttonsUITests */,
+				17AF2416232FA66100DABA95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17AF2416232FA66100DABA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17AF2415232FA66100DABA95 /* Uiswich nd Uibttons.app */,
+				17AF2429232FA66200DABA95 /* Uiswich nd UibttonsTests.xctest */,
+				17AF2434232FA66200DABA95 /* Uiswich nd UibttonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17AF2417232FA66100DABA95 /* Uiswich nd Uibttons */ = {
+			isa = PBXGroup;
+			children = (
+				17AF2418232FA66100DABA95 /* AppDelegate.swift */,
+				17AF241A232FA66100DABA95 /* ViewController.swift */,
+				17AF241C232FA66100DABA95 /* Main.storyboard */,
+				17AF241F232FA66200DABA95 /* Assets.xcassets */,
+				17AF2421232FA66200DABA95 /* LaunchScreen.storyboard */,
+				17AF2424232FA66200DABA95 /* Info.plist */,
+			);
+			path = "Uiswich nd Uibttons";
+			sourceTree = "<group>";
+		};
+		17AF242C232FA66200DABA95 /* Uiswich nd UibttonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				17AF242D232FA66200DABA95 /* Uiswich_nd_UibttonsTests.swift */,
+				17AF242F232FA66200DABA95 /* Info.plist */,
+			);
+			path = "Uiswich nd UibttonsTests";
+			sourceTree = "<group>";
+		};
+		17AF2437232FA66200DABA95 /* Uiswich nd UibttonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17AF2438232FA66200DABA95 /* Uiswich_nd_UibttonsUITests.swift */,
+				17AF243A232FA66200DABA95 /* Info.plist */,
+			);
+			path = "Uiswich nd UibttonsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17AF2414232FA66100DABA95 /* Uiswich nd Uibttons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AF243D232FA66200DABA95 /* Build configuration list for PBXNativeTarget "Uiswich nd Uibttons" */;
+			buildPhases = (
+				17AF2411232FA66100DABA95 /* Sources */,
+				17AF2412232FA66100DABA95 /* Frameworks */,
+				17AF2413232FA66100DABA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uiswich nd Uibttons";
+			productName = "Uiswich nd Uibttons";
+			productReference = 17AF2415232FA66100DABA95 /* Uiswich nd Uibttons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17AF2428232FA66200DABA95 /* Uiswich nd UibttonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AF2440232FA66200DABA95 /* Build configuration list for PBXNativeTarget "Uiswich nd UibttonsTests" */;
+			buildPhases = (
+				17AF2425232FA66200DABA95 /* Sources */,
+				17AF2426232FA66200DABA95 /* Frameworks */,
+				17AF2427232FA66200DABA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17AF242B232FA66200DABA95 /* PBXTargetDependency */,
+			);
+			name = "Uiswich nd UibttonsTests";
+			productName = "Uiswich nd UibttonsTests";
+			productReference = 17AF2429232FA66200DABA95 /* Uiswich nd UibttonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17AF2433232FA66200DABA95 /* Uiswich nd UibttonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17AF2443232FA66200DABA95 /* Build configuration list for PBXNativeTarget "Uiswich nd UibttonsUITests" */;
+			buildPhases = (
+				17AF2430232FA66200DABA95 /* Sources */,
+				17AF2431232FA66200DABA95 /* Frameworks */,
+				17AF2432232FA66200DABA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17AF2436232FA66200DABA95 /* PBXTargetDependency */,
+			);
+			name = "Uiswich nd UibttonsUITests";
+			productName = "Uiswich nd UibttonsUITests";
+			productReference = 17AF2434232FA66200DABA95 /* Uiswich nd UibttonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17AF240D232FA66000DABA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "THOTA NAGARAJU";
+				TargetAttributes = {
+					17AF2414232FA66100DABA95 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					17AF2428232FA66200DABA95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17AF2414232FA66100DABA95;
+					};
+					17AF2433232FA66200DABA95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17AF2414232FA66100DABA95;
+					};
+				};
+			};
+			buildConfigurationList = 17AF2410232FA66000DABA95 /* Build configuration list for PBXProject "Uiswich nd Uibttons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17AF240C232FA66000DABA95;
+			productRefGroup = 17AF2416232FA66100DABA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17AF2414232FA66100DABA95 /* Uiswich nd Uibttons */,
+				17AF2428232FA66200DABA95 /* Uiswich nd UibttonsTests */,
+				17AF2433232FA66200DABA95 /* Uiswich nd UibttonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17AF2413232FA66100DABA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF2423232FA66200DABA95 /* LaunchScreen.storyboard in Resources */,
+				17AF2420232FA66200DABA95 /* Assets.xcassets in Resources */,
+				17AF241E232FA66100DABA95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF2427232FA66200DABA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF2432232FA66200DABA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17AF2411232FA66100DABA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF241B232FA66100DABA95 /* ViewController.swift in Sources */,
+				17AF2419232FA66100DABA95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF2425232FA66200DABA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF242E232FA66200DABA95 /* Uiswich_nd_UibttonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AF2430232FA66200DABA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AF2439232FA66200DABA95 /* Uiswich_nd_UibttonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17AF242B232FA66200DABA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17AF2414232FA66100DABA95 /* Uiswich nd Uibttons */;
+			targetProxy = 17AF242A232FA66200DABA95 /* PBXContainerItemProxy */;
+		};
+		17AF2436232FA66200DABA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17AF2414232FA66100DABA95 /* Uiswich nd Uibttons */;
+			targetProxy = 17AF2435232FA66200DABA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17AF241C232FA66100DABA95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AF241D232FA66100DABA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17AF2421232FA66200DABA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17AF2422232FA66200DABA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17AF243B232FA66200DABA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17AF243C232FA66200DABA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17AF243E232FA66200DABA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uiswich nd Uibttons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naga.Uiswich-nd-Uibttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17AF243F232FA66200DABA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uiswich nd Uibttons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naga.Uiswich-nd-Uibttons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17AF2441232FA66200DABA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uiswich nd UibttonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naga.Uiswich-nd-UibttonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uiswich nd Uibttons.app/Uiswich nd Uibttons";
+			};
+			name = Debug;
+		};
+		17AF2442232FA66200DABA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uiswich nd UibttonsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naga.Uiswich-nd-UibttonsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uiswich nd Uibttons.app/Uiswich nd Uibttons";
+			};
+			name = Release;
+		};
+		17AF2444232FA66200DABA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uiswich nd UibttonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naga.Uiswich-nd-UibttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uiswich nd Uibttons";
+			};
+			name = Debug;
+		};
+		17AF2445232FA66200DABA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uiswich nd UibttonsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naga.Uiswich-nd-UibttonsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uiswich nd Uibttons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17AF2410232FA66000DABA95 /* Build configuration list for PBXProject "Uiswich nd Uibttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF243B232FA66200DABA95 /* Debug */,
+				17AF243C232FA66200DABA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AF243D232FA66200DABA95 /* Build configuration list for PBXNativeTarget "Uiswich nd Uibttons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF243E232FA66200DABA95 /* Debug */,
+				17AF243F232FA66200DABA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AF2440232FA66200DABA95 /* Build configuration list for PBXNativeTarget "Uiswich nd UibttonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF2441232FA66200DABA95 /* Debug */,
+				17AF2442232FA66200DABA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17AF2443232FA66200DABA95 /* Build configuration list for PBXNativeTarget "Uiswich nd UibttonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17AF2444232FA66200DABA95 /* Debug */,
+				17AF2445232FA66200DABA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17AF240D232FA66000DABA95 /* Project object */;
+}
